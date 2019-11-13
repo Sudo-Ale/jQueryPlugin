@@ -2,6 +2,7 @@
 //ora la possiamo richiamare come se fosse una evento/azione
 
 (function($){
+    //Sintassi per definire un plugin in jQuery
     $.fn.imagePopup = function(options){   //imagePopup sarà il nome del nostro plugin, options riceve i valori da app.js
 
         //settings sarà la variabile usata per recuperare le properties di options
@@ -141,4 +142,4 @@
             });
         });
     };
-}(jQuery));
+}(jQuery)); //Questa è una funzione anonima
