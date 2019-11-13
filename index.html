@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <title>Image Gallery</title>
+</head>
+
+<body>
+    <h1>Image Gallery</h1>
+    <ul id="imageGallery">
+        <li>
+            <a>
+                <img src="images/b1.png" alt="Book 1">
+            </a>
+        </li>
+        <li>
+            <a>
+                <img src="images/b2.png" alt="Book 2">
+            </a>
+        </li>
+        <li>
+            <a>
+                <img src="images/b3.png" alt="Book 3">
+            </a>
+        </li>
+        <li>
+            <a>
+                <img src="images/b4.png" alt="Book 4">
+            </a>
+        </li>
+        <li>
+            <a>
+                <img src="images/b5.png" alt="Book 5">
+            </a>
+        </li>
+    </ul>
+
+    <!--Questo è solo per testare che possiamo aggiungere più gallerie al nostro plugin-->
+    <!--<h1>Image Gallery 2</h1>
+    <ul id="imageGallery2">
+        <li>
+            <a>
+                <img src="images/b1.png" alt="Book 1">
+            </a>
+        </li>
+        <li>
+            <a>
+                <img src="images/b2.png" alt="Book 2">
+            </a>
+        </li>
+        <li>
+            <a>
+                <img src="images/b3.png" alt="Book 3">
+            </a>
+        </li>
+        <li>
+            <a>
+                <img src="images/b4.png" alt="Book 4">
+            </a>
+        </li>
+        <li>
+            <a>
+                <img src="images/b5.png" alt="Book 5">
+            </a>
+        </li>
+    </ul>-->
+
+    <!--!!!!!!!!IMPORTANTISSIMO!!!!!!!-->
+
+    <!--Aggiungere le source ESATTAMENTE in questo ordine:
+        1° la libreria di jQuery
+        2° il plugin di jQuery (jquery.image-popup.js) dove è definito tutto
+        3° il file di jQuery (app.js)
+
+        Se si cambia l'ordine app.js non riconosce imagePopup come function
+        E darebbe come errore: $(...).imagePopup is not a function
+    -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+    <script src="jquery.image-popup.js" type="text/javascript"></script>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
