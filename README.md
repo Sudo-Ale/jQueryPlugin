@@ -1,4 +1,4 @@
-# jQueryPlugin - Gallery Image Popup
+# jQueryPlugin - Image Gallery Popup
 
 Semplice Image Popup su jQuery - jQuery Plugin
 
